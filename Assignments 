@@ -6,7 +6,7 @@ int main() {
 
     printf("Simple Calculator\n");
     printf("Choose an operator (+, -, *, /): ");
-    scanf(" %c", &op); // space before %c to handle newline
+    scanf(" %c", &op);
 
     printf("Enter two numbers: ");
     scanf("%lf %lf", &num1, &num2);
